@@ -1,0 +1,32 @@
+{
+  "name": "ts-express",
+  "version": "1.0.0",
+  "description": "Simple Typescript Express with Webpack, Model, Controller. For Api purpose.",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "prod": "npm run production",
+    "production": "webpack --mode=production"
+  },
+  "author": {
+    "name": "Arnolfo Federis",
+    "url": "https://github.com/arnoldfederis"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-node-externals": "^3.0.0",
+    "webpack-shell-plugin-next": "^2.2.2"
+  }
+}
